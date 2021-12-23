@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Keychain_Example' do
+  pod 'Keychain', :path => '../'
+
+  target 'Keychain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
